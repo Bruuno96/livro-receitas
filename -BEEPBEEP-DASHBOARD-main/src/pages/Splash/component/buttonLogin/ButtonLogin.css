@@ -1,0 +1,35 @@
+button {
+    background: var(--secondary);
+    
+    border: 0;
+    border-radius: 20px;
+
+    padding: 0.5rem 0.7rem;
+
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: background 0.5s;
+}
+
+button:hover {
+    background: var(--primary-light);
+}
+
+button > .logar {
+    width: 70px;
+    height: 37px;
+    
+
+    border-radius: 100%;
+}
+button > .textLogin{
+    
+    color: #FFFF;
+    
+
+}
+

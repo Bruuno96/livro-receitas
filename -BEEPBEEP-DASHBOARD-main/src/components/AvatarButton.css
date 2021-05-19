@@ -1,0 +1,29 @@
+button {
+    background: var(--secondary);
+    
+    border: 0;
+    border-radius: 20px;
+
+    padding: 0.5rem 0.7rem;
+
+    width: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: background 0.5s;
+}
+
+button:hover {
+    background: var(--primary-light);
+}
+
+button > .avatar {
+    width: 40px;
+    height: 40px;
+
+    background: var(--text-primary);
+
+    border-radius: 100%;
+}

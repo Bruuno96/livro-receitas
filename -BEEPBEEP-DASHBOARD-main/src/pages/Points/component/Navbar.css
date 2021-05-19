@@ -1,0 +1,26 @@
+.navbar-container {
+    background: var(--primary);
+
+    width: 100vw;
+    height: 15vh;
+
+    padding: 0rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 0 10px black;
+}
+
+.navbar-container h5 {
+    text-transform: uppercase;
+    margin: 0;
+
+    color: var(--text-primary);
+    text-shadow: 4px 4px 9px black;
+}
+
+.navbar-container h5 > span {
+    color: var(--secondary);
+}

@@ -1,0 +1,21 @@
+.employee-container {
+    height: 85vh;
+
+    padding: 1.5rem 1rem;
+}
+
+.section-info-container {
+    display: flex;
+}
+
+.section-info-container > div {
+    margin-right: 0.5rem;
+}
+  
+.section-info-container > div:last-child {
+    margin-right: 0;
+}
+  
+.section-map-container {
+    flex: 1;
+}
